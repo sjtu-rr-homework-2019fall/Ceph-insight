@@ -142,4 +142,36 @@
   
     Comment: This is quite interesting that your download speed is growing from zero to the highest pitch due to the sliding window flow control.
   
-  - 
+  - #### Congestion control
+  
+    Acknowledgments for data sent, or lack of acknowledgments, are used by senders to infer network conditions between the TCP sender and receiver. Coupled with timers, TCP senders and receivers can alter the behavior of the flow of data. This is more generally referred to as congestion control and/or network congestion avoidance.
+  
+    In TCP, the **congestion window** is one of the factors that determines the number of bytes that can be outstanding at any time. The congestion window is maintained by the sender. Note that this is not to be confused with the sliding window size which is maintained by the receiver. The congestion window is a means of stopping a link between the sender and the receiver from becoming overloaded with too much traffic. It is calculated by estimating how much congestion there is on the link.
+  
+    The flow of data over a TCP connection is also controlled by the use of the *receive window* advertised by the receiver. By comparing its own congestion window with the *receive window*, a sender can determine how much data it may send at any given time.
+  
+  - #### Vulnerabilities
+  
+    - ##### Denial of service
+  
+      By using a [spoofed IP](https://en.wikipedia.org/wiki/IP_address_spoofing) address and repeatedly sending [purposely assembled](https://en.wikipedia.org/wiki/Mangled_packet) SYN packets, followed by many ACK packets, attackers can cause the server to consume large amounts of resources keeping track of the bogus connections. 
+  
+    - ##### Connection hijacking
+  
+      An attacker who is able to eavesdrop a TCP session and redirect packets can hijack a TCP connection. To do so, the attacker learns the sequence number from the ongoing communication and forges a false segment that looks like the next segment in the stream. Such a simple hijack can result in one packet being erroneously accepted at one end. 
+  
+    - ##### TCP veto
+  
+      An attacker who can eavesdrop and predict the size of the next packet to be sent can cause the receiver to accept a malicious payload without disrupting the existing connection. The attacker injects a malicious packet with the sequence number and a payload size of the next expected packet. 
+  
+      
+  
+      
+  
+      
+  
+      
+  
+      
+  
+      
