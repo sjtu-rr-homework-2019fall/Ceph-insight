@@ -166,4 +166,47 @@
   
 - ### User Datagram Protocol (UDP)
 
+  - #### Definition
   
+    With UDP, computer applications can send messages, in this case referred to as *datagrams*, to other hosts on an [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol) (IP) network. Prior communications are not required in order to set up [communication channels](https://en.wikipedia.org/wiki/Communication_channel) or data paths.
+  
+  - #### Characteristic
+  
+    - It is *transaction-oriented*, suitable for simple query-response protocols such as the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) or the [Network Time Protocol](https://en.wikipedia.org/wiki/Network_Time_Protocol).
+    - It provides *datagrams*, suitable for modeling other protocols such as [IP tunneling](https://en.wikipedia.org/wiki/IP_tunneling) or [remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call) and the [Network File System](https://en.wikipedia.org/wiki/Network_File_System).
+    - It is *simple*, suitable for [bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping) or other purposes without a full [protocol stack](https://en.wikipedia.org/wiki/Protocol_stack), such as the [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) and [Trivial File Transfer Protocol](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol).
+    - It is *stateless*, suitable for very large numbers of clients, such as in [streaming media](https://en.wikipedia.org/wiki/Streaming_media) applications such as [IPTV](https://en.wikipedia.org/wiki/IPTV).
+    - The *lack of retransmission delays* makes it suitable for real-time applications such as [Voice over IP](https://en.wikipedia.org/wiki/Voice_over_IP), [online games](https://en.wikipedia.org/wiki/Online_games), and many protocols using [Real Time Streaming Protocol](https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol).
+    - Because it supports [multicast](https://en.wikipedia.org/wiki/Multicast), it is suitable for broadcast information such as in many kinds of [service discovery](https://en.wikipedia.org/wiki/Service_discovery) and shared information such as [Precision Time Protocol](https://en.wikipedia.org/wiki/Precision_Time_Protocol) and [Routing Information Protocol](https://en.wikipedia.org/wiki/Routing_Information_Protocol).
+  
+  - #### Structure
+  
+    [![Capture.png](https://i.postimg.cc/Y9cpJMKy/Capture.png)](https://postimg.cc/WDnLZR4M)
+  
+  - #### Reliability and congestion control
+  
+    Lacking reliability, UDP applications must be willing to accept some packet loss, reordering, errors or duplication. 
+  
+    Most often, UDP applications do not employ reliability mechanisms and may even be hindered by them
+  
+    Comment ：It is  quite clear that UDP is suitable for Streaming media, in that kind of situation, the latency and the speed is the major concern, package loss does not bring fatal fault.
+  
+- ### Comparison of UDP and TCP
+
+  The major difference between UDP and TCP is that UDP is stateless, not ordered and unreliable. But at the same time, it is lightweight and can be sent to multiple device at once.
+
+- ### Wired technologies
+
+  - #### Coaxial cable
+
+    Coaxial cable conducts electrical signal using an inner conductor (usually a solid copper, stranded copper or copper plated steel wire) surrounded by an insulating layer and all enclosed by a shield, typically one to four layers of woven metallic braid and metallic tape. The cable is protected by an outer insulating jacket. Short coaxial cables are commonly used to connect home [video](https://en.wikipedia.org/wiki/Video) equipment
+
+    [![RG-6-coaxial-cable.png](https://i.postimg.cc/D07Q2V37/RG-6-coaxial-cable.png)](https://postimg.cc/mz61w5rn)
+
+    Long distance coaxial cable was used in the 20th century to connect [radio networks](https://en.wikipedia.org/wiki/Radio_network), [television networks](https://en.wikipedia.org/wiki/Television_network), and [Long Distance telephone](https://en.wikipedia.org/wiki/L-carrier) networks though this has largely been superseded by later methods
+
+  - #### Twisted pair
+
+    It typically consists of 4 pairs of copper cabling that can be utilized for both voice and data transmission. The use of two wires twisted together helps to reduce [crosstalk](https://en.wikipedia.org/wiki/Crosstalk_(electronics)) and [electromagnetic induction](https://en.wikipedia.org/wiki/Electromagnetic_induction).
+
+    
