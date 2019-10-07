@@ -221,9 +221,27 @@
 
     [![Fibreoptic.jpg](https://i.postimg.cc/3JRfsqjg/Fibreoptic.jpg)](https://postimg.cc/jCphNZF5)
 
+    The per-channel light signals propagating in the fiber have been modulated at rates as high as 111 [gigabits per second](https://en.wikipedia.org/wiki/Gigabit_per_second) (Gbit/s) by [NTT](https://en.wikipedia.org/wiki/Nippon_Telegraph_and_Telephone),[[32\]](https://en.wikipedia.org/wiki/Optical_fiber#cite_note-NTT-32)[[33\]](https://en.wikipedia.org/wiki/Optical_fiber#cite_note-33) although 10 or 40 Gbit/s is typical in deployed systems.[[34\]](https://en.wikipedia.org/wiki/Optical_fiber#cite_note-34)[[35\]](https://en.wikipedia.org/wiki/Optical_fiber#cite_note-35) In June 2013, researchers demonstrated transmission of 400 Gbit/s over a single channel using 4-mode [orbital angular momentum multiplexing](https://en.wikipedia.org/wiki/Orbital_angular_momentum_multiplexing).[[36\]](https://en.wikipedia.org/wiki/Optical_fiber#cite_note-36)
+
+    Each fiber can carry many independent channels, each using a different wavelength of light ([wavelength-division multiplexing](https://en.wikipedia.org/wiki/Wavelength-division_multiplexing) (WDM)). The net data rate (data rate without overhead bytes) per fiber is the per-channel data rate reduced by the FEC overhead, multiplied by the number of channels (usually up to 80 in commercial [dense WDM](https://en.wikipedia.org/wiki/Dense_WDM) systems as of 2008). As of 2011 the record for bandwidth on a single core was 101 Tbit/s (370 channels at 273 Gbit/s each).[[37\]](https://en.wikipedia.org/wiki/Optical_fiber#cite_note-37) The record for a multi-core fiber as of January 2013 was 1.05 Pbit/s.[[38\]](https://en.wikipedia.org/wiki/Optical_fiber#cite_note-38) In 2009, Bell Labs broke the 100 (Pbit/s)·km barrier (15.5 Tbit/s over a single 7000 km fiber)
+
+    Comment: Optical fibers have higher bandwidth, no electromagnetic noise, and low loss rate in long distance. 
+
+- ### Wireless technologies
+
+  - #### Microwave
+
     
 
   - 
+
+    
+
+ 
+
+- - #### 
+
+  
 
   
 
