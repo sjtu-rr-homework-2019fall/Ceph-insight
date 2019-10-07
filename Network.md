@@ -209,4 +209,26 @@
 
     It typically consists of 4 pairs of copper cabling that can be utilized for both voice and data transmission. The use of two wires twisted together helps to reduce [crosstalk](https://en.wikipedia.org/wiki/Crosstalk_(electronics)) and [electromagnetic induction](https://en.wikipedia.org/wiki/Electromagnetic_induction).
 
+    A twisted pair can be used as a [balanced line](https://en.wikipedia.org/wiki/Balanced_line), which as part of a [balanced circuit](https://en.wikipedia.org/wiki/Balanced_circuit) can greatly reduce the effect of noise currents induced on the line by coupling of electric or magnetic fields. 
+
+    [![FTP-cable3.jpg](https://i.postimg.cc/tJ3zGhSn/FTP-cable3.jpg)](https://postimg.cc/1VzFpNZy)
+
+    Comment: The advantage is that it can minimize the noise on the line, and it is a cheap solution for this problem.
+
+  - #### Optical fiber
+
+    An **optical fiber** is a flexible, [transparent](https://en.wikipedia.org/wiki/Transparency_and_translucency) [fiber](https://en.wikipedia.org/wiki/Fiber) made by [drawing](https://en.wikipedia.org/wiki/Drawing_(manufacturing)) [glass](https://en.wikipedia.org/wiki/Glass) ([silica](https://en.wikipedia.org/wiki/Silica)) or plastic to a diameter slightly thicker than that of a [human hair](https://en.wikipedia.org/wiki/Hair's_breadth).[[1\]](https://en.wikipedia.org/wiki/Optical_fiber#cite_note-1) Optical fibers are used most often as a means to transmit light between the two ends of the fiber and find wide usage in [fiber-optic communications](https://en.wikipedia.org/wiki/Fiber-optic_communication), where they permit transmission over longer distances and at higher [bandwidths](https://en.wikipedia.org/wiki/Bandwidth_(computing)) (data rates) than electrical cables.
+
+    [![Fibreoptic.jpg](https://i.postimg.cc/3JRfsqjg/Fibreoptic.jpg)](https://postimg.cc/jCphNZF5)
+
     
+
+  - 
+
+  
+
+  
+
+  
+
+  
