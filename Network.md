@@ -332,13 +332,25 @@
 
   The most familiar type of IP routers are [home and small office routers](https://en.wikipedia.org/wiki/Home_router) that simply forward [IP packets](https://en.wikipedia.org/wiki/IP_packet_(disambiguation)) between the home computers and the Internet. 
 
+   A router is considered a [layer-3](https://en.wikipedia.org/wiki/Layer-3) device because its primary forwarding decision is based on the information in the layer-3 IP packet, specifically the destination IP address.
   
-  
-  
-  
-- 
+- ### Modem
+
+  A **modem** ([portmanteau](https://en.wikipedia.org/wiki/Portmanteau) of modulator-demodulator) is a [hardware](https://en.wikipedia.org/wiki/Computer_hardware) device that converts data into a format suitable for a [transmission medium](https://en.wikipedia.org/wiki/Transmission_medium) so that it can be transmitted from computer to computer (historically over telephone wires).
+
+  [![Tele-Guide-terminal.jpg](https://i.postimg.cc/WzVzjFJt/Tele-Guide-terminal.jpg)](https://postimg.cc/qhm4x7wd)
+
+  Comment： The biggest advantage is that it can use electric wire that is not designed to convey network, which can be implemented in a wide range.
+
+- ### Firewall
+
+  In [computing](https://en.wikipedia.org/wiki/Computing), a **firewall** is a [network security](https://en.wikipedia.org/wiki/Network_security) system that [monitors](https://en.wikipedia.org/wiki/Network_monitoring) and controls incoming and outgoing [network traffic](https://en.wikipedia.org/wiki/Network_traffic) based on predetermined security rules.
 
   
+
+- 
+
+- 
 
   
 
