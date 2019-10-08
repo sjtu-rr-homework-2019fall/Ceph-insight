@@ -258,17 +258,65 @@
     - A [packet switched network](https://en.wikipedia.org/wiki/GPRS) for handling mobile data
     - The [public switched telephone network](https://en.wikipedia.org/wiki/Public_switched_telephone_network) to connect subscribers to the wider telephony network
     
-  - 
+  - #### Free-space optical communication
   
-  - 
-  
+    Free-space point-to-point optical links can be implemented using infrared laser light, although low-data-rate communication over short distances is possible using [LEDs](https://en.wikipedia.org/wiki/Light-emitting_diode). [Infrared Data Association](https://en.wikipedia.org/wiki/Infrared_Data_Association) (IrDA) technology is a very simple form of free-space optical communications. On the communications side the FSO technology is considered as a part of the [optical wireless communications](https://en.wikipedia.org/wiki/Optical_wireless_communications) applications. Free-space optics can be used for communications between [spacecraft](https://en.wikipedia.org/wiki/Spacecraft).
+
+- ### Network interface controller
+
+  - #### Definition
+
+    A **network interface controller** (**NIC**, also known as a **network interface card**, **network adapter**, **LAN adapter** or **physical network interface**,[[1\]](https://en.wikipedia.org/wiki/Network_interface_controller#cite_note-1) and by similar terms) is a [computer hardware](https://en.wikipedia.org/wiki/Computer_hardware) component that connects a [computer](https://en.wikipedia.org/wiki/Computer) to a computer network.
+
+    [![1280px-Network-card.jpg](https://i.postimg.cc/L6qW3YZc/1280px-Network-card.jpg)](https://postimg.cc/SJhVyKdd)
+
+    Network controllers were originally implemented as expansion cards that plugged into a computer bus. The low cost and ubiquity of the Ethernet standard means that most new computers have a network interface controller built into the motherboard. 
+
     
-
- 
-
-- - #### 
-
   
+  - #### Implementation
+  
+    Network controllers were originally implemented as expansion cards that plugged into a computer bus. The low cost and ubiquity of the Ethernet standard means that most new computers have a network interface controller built into the motherboard. 
+  
+     A separate network card is typically no longer required unless additional independent network connections are needed or some non-Ethernet type of network is used. A general trend in computer hardware is towards [integrating the various components of systems on a chip](https://en.wikipedia.org/wiki/System_on_a_chip), and this is also applied to network interface cards.
+  
+  - #### Performance and advanced functionality
+  
+    The NIC may distribute incoming traffic between the receive queues using a [hash function](https://en.wikipedia.org/wiki/Hash_function). Each receive queue is assigned to a separate [interrupt](https://en.wikipedia.org/wiki/Interrupt); by routing each of those interrupts to different [CPUs](https://en.wikipedia.org/wiki/CPU) or [CPU cores](https://en.wikipedia.org/wiki/Multi-core_processor), processing of the interrupt requests triggered by the network traffic received by a single NIC can be distributed improving performance
+  
+    With multi-queue NICs, additional performance improvements can be achieved by distributing outgoing traffic among different transmit queues. By assigning different transmit queues to different CPUs or CPU cores, internal operating system contentions can be avoided. 
+  
+    An Ethernet network controller typically has an [8P8C](https://en.wikipedia.org/wiki/8P8C) socket where the network cable is connected. Older NICs also supplied [BNC](https://en.wikipedia.org/wiki/BNC_connector), or [AUI](https://en.wikipedia.org/wiki/Attachment_Unit_Interface) connections. Ethernet network controllers typically support 10 [Mbit/s](https://en.wikipedia.org/wiki/Megabit_per_second) Ethernet, [100 Mbit/s Ethernet](https://en.wikipedia.org/wiki/Fast_Ethernet), and [1000 Mbit/s Ethernet](https://en.wikipedia.org/wiki/Gigabit_Ethernet) varieties. Such controllers are designated as *10/100/1000*, meaning that they can support data rates of 10, 100 or 1000 Mbit/s. [10 Gigabit Ethernet](https://en.wikipedia.org/wiki/10_Gigabit_Ethernet) NICs are also available, and, as of November 2014, are beginning to be available on computer motherboards.
+  
+    Comment: Nowadays, the performance of  Network interface controller is far beyond the speed limit of the outer Internet.
+  
+- ### Ethernet hub
+
+  An **Ethernet hub**, **active hub**, **network hub**, **repeater hub**, **multiport repeater**, or simply **hub** is a [network hardware](https://en.wikipedia.org/wiki/Network_hardware) device for connecting multiple [Ethernet](https://en.wikipedia.org/wiki/Ethernet) devices together and making them act as a single [network segment](https://en.wikipedia.org/wiki/Network_segment).
+
+  [![HP-Ether-Twist-Hub8.jpg](https://i.postimg.cc/8zGXLydY/HP-Ether-Twist-Hub8.jpg)](https://postimg.cc/D8CcTPMQ)
+
+  Hubs are now largely obsolete, having been replaced by [network switches](https://en.wikipedia.org/wiki/Network_switch) except in very old installations or [specialized applications](https://en.wikipedia.org/wiki/Ethernet_hub#Uses). 
+
+  A hub works at the [physical layer](https://en.wikipedia.org/wiki/Physical_layer) (layer 1) of the [OSI model](https://en.wikipedia.org/wiki/OSI_model).
+
+  As a *multiport repeater* it works by repeating bits ([symbols](https://en.wikipedia.org/wiki/Symbol_rate)) received from one of its ports to all other ports. A hub cannot further examine or manage any of the traffic that comes through it: any packet entering any port is rebroadcast on all other ports.
+  
+  Comment: The reason why hub is replaced with switches is that it does not have any control or management over the connection, which is not sophisticated.
+  
+- ### Network switch
+
+  A **network switch** (also called **switching hub**, **bridging hub**, officially **MAC bridge**)[[1\]](https://en.wikipedia.org/wiki/Network_switch#cite_note-1) is [networking hardware](https://en.wikipedia.org/wiki/Networking_hardware) that connects devices on a [computer network](https://en.wikipedia.org/wiki/Computer_network) by using [packet switching](https://en.wikipedia.org/wiki/Packet_switching) to receive, and forward data to the destination device.
+
+  [![Internals-of-a-Cisco-small-business-SG300-28-28-port-Gigabit-Eth.jpg](https://i.postimg.cc/02zPLyLv/Internals-of-a-Cisco-small-business-SG300-28-28-port-Gigabit-Eth.jpg)](https://postimg.cc/hfRkmcDZ)
+
+  A switch is more intelligent than an [Ethernet hub](https://en.wikipedia.org/wiki/Ethernet_hub), which simply retransmits packets out of every port of the hub except the port on which the packet was received, unable to distinguish different recipients, and achieving an overall lower network efficiency.
+
+  An Ethernet switch operates at the [data link layer](https://en.wikipedia.org/wiki/Data_link_layer) (layer 2) of the OSI model to create a separate [collision domain](https://en.wikipedia.org/wiki/Collision_domain) for each switch port. Each device connected to a switch port can transfer data to any of the other ports at any time and the transmissions will not interfere.
+
+- 
+
+- 
 
   
 
