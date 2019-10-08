@@ -401,12 +401,34 @@
   
     In [computer networking](https://en.wikipedia.org/wiki/Computer_network): **resilience** is the ability to provide and maintain an acceptable level of [service](https://en.wikipedia.org/wiki/Service_(systems_architecture)) in the face of [faults](https://en.wikipedia.org/wiki/Fault_(technology)) and challenges to [normal operation](https://en.wikipedia.org/w/index.php?title=Normal_operation&action=edit&redlink=1).
   
-    
+    Comment: Imagine that a service is overwhelmed by a single request or a fault, than it should melt down to deal with other requests.
   
   - 
   
-- 
+- ### Data center network architectures
 
+  - #### Three-tier DCN
+
+    The [legacy](https://en.wikipedia.org/wiki/Legacy_system) three-tier DCN architecture follows a multi-rooted [tree based network topology](https://en.wikipedia.org/wiki/Tree_network) composed of three layers of network switches, namely access, aggregate, and core layers.
+
+    However, three-tier architecture is unable to handle the growing demand of cloud computing.[[7\]](https://en.wikipedia.org/wiki/Data_center_network_architectures#cite_note-taxonomy-7) The higher layers of the three-tier DCN are highly oversubscribed.[[3\]](https://en.wikipedia.org/wiki/Data_center_network_architectures#cite_note-fat-3) Moreover, scalability is another major issue in three-tier DCN.
   
-
+  - #### Fat tree DCN
+  
+    The architecture is composed of *k* pods, where each pod contains, (k/2)2 servers, k/2 access layer switches, and k/2 aggregate layer switches in the topology. The core layers contain (k/2)2 core switches where each of the core switches is connected to one aggregate layer switch in each of the pods.
+  
+    [![Capture.png](https://i.postimg.cc/2SHbpNNv/Capture.png)](https://postimg.cc/dhytdX1t)
+  
+  - #### DCell
+  
+     A cell0 is the basic unit and building block of DCell topology arranged in multiple levels, where a higher level cell contains multiple lower layer cells. The cell0 is building block of DCell topology, which contains *n* servers and one commodity network switch. The network switch is only used to connect the server within a cell0. A cell1 contain *k=n+1* cell0 cells, and similarly a cell2 contains k * n + 1 dcell1. 
+  
+    Comment: A rational structure should use less overhead cell to manger more basic cells, at the same time, this structure should handle fault quickly with load balancing.
+  
+  - 
+  
+    
+  
+    
+  
   
