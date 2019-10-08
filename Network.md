@@ -231,10 +231,22 @@
 
   - #### Microwave
 
+    **Microwaves** are a form of [electromagnetic radiation](https://en.wikipedia.org/wiki/Electromagnetic_radiation) with [wavelengths](https://en.wikipedia.org/wiki/Wavelength) ranging from about one meter to one millimeter; with [frequencies](https://en.wikipedia.org/wiki/Frequency) between 300 MHz (1 m) and 300 GHz (1 mm),  so terrestrial microwave communication links are limited by the visual horizon to about 40 miles (64 km). [![Capture.png](https://i.postimg.cc/D0vqpxJm/Capture.png)](https://postimg.cc/Fd6d7gxQ)
+
+    Microwaves are used in spacecraft communication, and much of the world's data, TV, and telephone communications are transmitted long distances by microwaves between ground stations and [communications satellites](https://en.wikipedia.org/wiki/Communications_satellite). Microwaves are also employed in [microwave ovens](https://en.wikipedia.org/wiki/Microwave_oven) and in [radar](https://en.wikipedia.org/wiki/Radar) technology.
+
+  - #### Communications satellite
+  
+    A **communications satellite** is an [artificial satellite](https://en.wikipedia.org/wiki/Artificial_satellite) that relays and amplifies [radio](https://en.wikipedia.org/wiki/Radio) telecommunications signals via a [transponder](https://en.wikipedia.org/wiki/Transponder_(satellite_communications)); it creates a [communication channel](https://en.wikipedia.org/wiki/Communication_channel) between a source [transmitter](https://en.wikipedia.org/wiki/Transmitter) and a [receiver](https://en.wikipedia.org/wiki/Radio_receiver) at different locations on Earth. 
     
-
+    The first and historically most important application for communication satellites was in intercontinental [long distance telephony](https://en.wikipedia.org/wiki/Long_distance_telephony). 
+    
+    After the 1990s, satellite communication technology has been used as a means to connect to the [Internet](https://en.wikipedia.org/wiki/Internet) via broadband data connections. This can be very useful for users who are located in remote areas, and cannot access a [broadband](https://en.wikipedia.org/wiki/Broadband) connection, or require high availability of services.
+    
   - 
-
+  
+  - 
+  
     
 
  
