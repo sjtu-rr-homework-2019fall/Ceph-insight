@@ -350,9 +350,17 @@
 
   [![Firewall.png](https://i.postimg.cc/FR5CrNF7/Firewall.png)](https://postimg.cc/cKhBTqnS)
 
-  
+  Network layer firewalls, also called packet filters, operate at a relatively low level of the [TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite) [protocol stack](https://en.wikipedia.org/wiki/Protocol_stack), not allowing packets to pass through the firewall unless they match the established rule set. 
 
-- 
+  Application-layer firewalls work on the application level of the [TCP/IP stack](https://en.wikipedia.org/wiki/Internet_protocol_suite#Key_architectural_principles) (i.e., all browser traffic, or all [telnet](https://en.wikipedia.org/wiki/Telnet) or FTP traffic), and may intercept all packets traveling to or from an application.
+
+  A proxy server (running either on dedicated hardware or as software on a general-purpose machine) may act as a firewall by responding to input packets (connection requests, for example) in the manner of an application, while blocking other packets. 
+
+  Comment: Firewall has much more function than we imagine, like proxying or address translation, or blocking packages from certain address. The most important thing is that firewall has been combined with router and switch, and become more like a software than a hardware.
+
+- ### Routing
+
+  
 
 - 
 
