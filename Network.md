@@ -346,6 +346,10 @@
 
   In [computing](https://en.wikipedia.org/wiki/Computing), a **firewall** is a [network security](https://en.wikipedia.org/wiki/Network_security) system that [monitors](https://en.wikipedia.org/wiki/Network_monitoring) and controls incoming and outgoing [network traffic](https://en.wikipedia.org/wiki/Network_traffic) based on predetermined security rules.
 
+  Firewalls are generally categorized as network-based or host-based. Network-based firewalls are positioned on the gateway computers of [LANs](https://en.wikipedia.org/wiki/Local_area_network), [WANs](https://en.wikipedia.org/wiki/Wide_Area_Network) and [intranets](https://en.wikipedia.org/wiki/Intranet).The host-based firewall may be a [daemon](https://en.wikipedia.org/wiki/Daemon_(computing)) or [service](https://en.wikipedia.org/wiki/Windows_service) as a part of the [operating system](https://en.wikipedia.org/wiki/Operating_system) or an agent application such as [endpoint security](https://en.wikipedia.org/wiki/Endpoint_security) or protection. 
+
+  [![Firewall.png](https://i.postimg.cc/FR5CrNF7/Firewall.png)](https://postimg.cc/cKhBTqnS)
+
   
 
 - 
