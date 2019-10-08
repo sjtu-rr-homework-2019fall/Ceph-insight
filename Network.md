@@ -235,6 +235,10 @@
 
     Microwaves are used in spacecraft communication, and much of the world's data, TV, and telephone communications are transmitted long distances by microwaves between ground stations and [communications satellites](https://en.wikipedia.org/wiki/Communications_satellite). Microwaves are also employed in [microwave ovens](https://en.wikipedia.org/wiki/Microwave_oven) and in [radar](https://en.wikipedia.org/wiki/Radar) technology.
 
+    [![Capture.png](https://i.postimg.cc/X73C81Sb/Capture.png)](https://postimg.cc/3WSNrBxS)
+  
+    Comment: Most of the wireless communication we knew today belongs to Microwave, including WiFi, Bluetooth. Microwave is suitable for short-distance communication, and they can convey larger amount of information( compare to radio)
+  
   - #### Communications satellite
   
     A **communications satellite** is an [artificial satellite](https://en.wikipedia.org/wiki/Artificial_satellite) that relays and amplifies [radio](https://en.wikipedia.org/wiki/Radio) telecommunications signals via a [transponder](https://en.wikipedia.org/wiki/Transponder_(satellite_communications)); it creates a [communication channel](https://en.wikipedia.org/wiki/Communication_channel) between a source [transmitter](https://en.wikipedia.org/wiki/Transmitter) and a [receiver](https://en.wikipedia.org/wiki/Radio_receiver) at different locations on Earth. 
@@ -242,6 +246,17 @@
     The first and historically most important application for communication satellites was in intercontinental [long distance telephony](https://en.wikipedia.org/wiki/Long_distance_telephony). 
     
     After the 1990s, satellite communication technology has been used as a means to connect to the [Internet](https://en.wikipedia.org/wiki/Internet) via broadband data connections. This can be very useful for users who are located in remote areas, and cannot access a [broadband](https://en.wikipedia.org/wiki/Broadband) connection, or require high availability of services.
+    
+  - #### Cellular network
+  
+    A **cellular network** or **mobile network** is a communication network where the last link is [wireless](https://en.wikipedia.org/wiki/Wireless). The network is distributed over land areas called "**cells**", each served by at least one fixed-location [transceiver](https://en.wikipedia.org/wiki/Transceiver), but more normally, three [cell sites](https://en.wikipedia.org/wiki/Cell_site) or [base transceiver stations](https://en.wikipedia.org/wiki/Base_transceiver_station).
+    
+    A simple view of the cellular mobile-radio network consists of the following:
+    
+    - A network of radio [base stations](https://en.wikipedia.org/wiki/Base_station) forming the [base station subsystem](https://en.wikipedia.org/wiki/Base_station_subsystem).
+    - The [core circuit switched network](https://en.wikipedia.org/wiki/Network_switching_subsystem) for handling voice calls and text
+    - A [packet switched network](https://en.wikipedia.org/wiki/GPRS) for handling mobile data
+    - The [public switched telephone network](https://en.wikipedia.org/wiki/Public_switched_telephone_network) to connect subscribers to the wider telephony network
     
   - 
   
