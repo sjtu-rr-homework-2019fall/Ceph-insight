@@ -314,8 +314,28 @@
 
   An Ethernet switch operates at the [data link layer](https://en.wikipedia.org/wiki/Data_link_layer) (layer 2) of the OSI model to create a separate [collision domain](https://en.wikipedia.org/wiki/Collision_domain) for each switch port. Each device connected to a switch port can transfer data to any of the other ports at any time and the transmissions will not interfere.
 
-- 
+  A layer 2 switch operating as a network bridge may interconnect devices in a home or office. The bridge learns the [MAC address](https://en.wikipedia.org/wiki/MAC_address) of each connected device. Bridges also buffer an incoming packet and adapt the transmission speed to that of the outgoing port.
+  
+  A layer-3 switch can perform some or all of the functions normally performed by a [router](https://en.wikipedia.org/wiki/Router_(computing)). Most network switches, however, are limited to supporting a single type of physical network, typically Ethernet, whereas a router may support different kinds of physical networks on different ports.
+  
+  A *layer-4 switch* is vendor-dependent, it almost always starts with a capability for [network address translation](https://en.wikipedia.org/wiki/Network_address_translation), and may add some type of [load distribution](https://en.wikipedia.org/wiki/Load_balancing_(computing)) based on [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) sessions or advanced QoS capabilities.
+  
+  A Layer-7 switch may distribute the load based on [uniform resource locators](https://en.wikipedia.org/wiki/Uniform_resource_locator) (URLs), or by using some installation-specific technique to recognize application-level transactions. A layer-7 switch may include a [web cache](https://en.wikipedia.org/wiki/Web_cache) and participate in a [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) (CDN).
+  
+- ### Router
 
+  A **router** is a [networking device](https://en.wikipedia.org/wiki/Networking_device) that forwards [data packets](https://en.wikipedia.org/wiki/Data_packet) between [computer networks](https://en.wikipedia.org/wiki/Computer_network). Routers perform the traffic directing functions on the [Internet](https://en.wikipedia.org/wiki/Internet). 
+
+  A router is connected to two or more data lines from different [IP networks](https://en.wikipedia.org/wiki/IP_network).[[b\]](https://en.wikipedia.org/wiki/Router_(computing)#cite_note-4) When a data packet comes in on one of the lines, the router reads the [network address](https://en.wikipedia.org/wiki/Network_address) information in the packet header to determine the ultimate destination. Then, using information in its [routing table](https://en.wikipedia.org/wiki/Routing_table) or [routing policy](https://en.wikipedia.org/wiki/Routing_policy), it directs the packet to the next network on its journey.
+
+  [![1280px-Adsl-connections.jpg](https://i.postimg.cc/jjx76fFK/1280px-Adsl-connections.jpg)](https://postimg.cc/PC7JTCHF)
+
+  The most familiar type of IP routers are [home and small office routers](https://en.wikipedia.org/wiki/Home_router) that simply forward [IP packets](https://en.wikipedia.org/wiki/IP_packet_(disambiguation)) between the home computers and the Internet. 
+
+  
+  
+  
+  
 - 
 
   
