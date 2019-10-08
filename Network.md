@@ -360,11 +360,52 @@
 
 - ### Routing
 
-  
+  In packet switched networks, routing directs [packet forwarding](https://en.wikipedia.org/wiki/Packet_forwarding) (the transit of logically addressed [network packets](https://en.wikipedia.org/wiki/Network_packet) from their source toward their ultimate destination) through intermediate [nodes](https://en.wikipedia.org/wiki/Node_(networking)).
 
+   Intermediate nodes are typically network hardware devices such as [routers](https://en.wikipedia.org/wiki/Router_(computing)), [bridges](https://en.wikipedia.org/wiki/Bridging_(networking)), [gateways](https://en.wikipedia.org/wiki/Gateway_(telecommunications)), [firewalls](https://en.wikipedia.org/wiki/Firewall_(computing)), or [switches](https://en.wikipedia.org/wiki/Network_switch). 
+
+  There are usually multiple routes that can be taken, and to choose between them, different elements can be considered to decide which routes get installed into the routing table, such as (sorted by priority):
+
+  1. *Prefix-Length*: where longer subnet masks are preferred (independent if it is within a routing protocol or over different routing protocol)
+  2. *Metric*: where a lower metric/cost is preferred (only valid within one and the same routing protocol)
+  3. *Administrative distance*: where a lower distance is preferred (only valid between different routing protocols)
+
+- ### Network performance
+
+  - #### Grade of service
+
+    In [circuit switched](https://en.wikipedia.org/wiki/Circuit_switched) networks, network performance is synonymous with the [grade of service](https://en.wikipedia.org/wiki/Grade_of_service). 
+
+    In a Loss System, the Grade of Service is described as that proportion of calls that are lost due to congestion in the busy hour.
+  
+  - #### Quality of service
+  
+     In an [Asynchronous Transfer Mode](https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode) (ATM) network, performance can be measured by line rate, [quality of service](https://en.wikipedia.org/wiki/Quality_of_service) (QoS), data throughput, connect time, stability, technology, modulation technique and modem enhancements.
+  
+     Quality of service is the ability to provide different priority to different applications, users, or [data flows](https://en.wikipedia.org/wiki/Flow_(computer_networking)), or to guarantee a certain level of performance to a data flow. 
+  
+    For example, a required bit rate, [delay](https://en.wikipedia.org/wiki/Network_delay), [delay variation](https://en.wikipedia.org/wiki/Packet_delay_variation), [packet loss](https://en.wikipedia.org/wiki/Packet_loss) or [bit error rates](https://en.wikipedia.org/wiki/Bit_error_rate) may be guaranteed. 
+  
+  - #### Network congestion
+  
+    **Network congestion** in [data networking](https://en.wikipedia.org/wiki/Data_networking) and [queueing theory](https://en.wikipedia.org/wiki/Queueing_theory) is the reduced [quality of service](https://en.wikipedia.org/wiki/Quality_of_service) that occurs when a network node or link is carrying more data than it can handle. Among the ways to classify congestion control algorithms are:
+  
+    - By type and amount of feedback received from the network: Loss; delay; single-bit or multi-bit explicit signals
+    - By incremental deployability: Only sender needs modification; sender and receiver need modification; only router needs modification; sender, receiver and routers need modification.
+    - By performance aspect: high bandwidth-delay product networks; lossy links; fairness; advantage to short flows; variable-rate links
+    - By fairness criterion: Max-min fairness; proportionally fair; [controlled delay](https://en.wikipedia.org/w/index.php?title=Controlled_delay&action=edit&redlink=1)
+  
+    Comment: It is quite interesting that congestion can happen anywhere. Imagine that too many request came to the service, then the service must abandon some request or deal with some requests first. For example, the service can abandon the early request because the sender may no longer waiting.
+  
+  - #### Network congestion
+  
+    In [computer networking](https://en.wikipedia.org/wiki/Computer_network): **resilience** is the ability to provide and maintain an acceptable level of [service](https://en.wikipedia.org/wiki/Service_(systems_architecture)) in the face of [faults](https://en.wikipedia.org/wiki/Fault_(technology)) and challenges to [normal operation](https://en.wikipedia.org/w/index.php?title=Normal_operation&action=edit&redlink=1).
+  
+    
+  
+  - 
+  
 - 
-
-  
 
   
 
