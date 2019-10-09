@@ -222,9 +222,9 @@
 
   - #### Microwave
 
-    **Microwaves** are a form of [electromagnetic radiation](https://en.wikipedia.org/wiki/Electromagnetic_radiation) with [wavelengths](https://en.wikipedia.org/wiki/Wavelength) ranging from about one meter to one millimeter; with [frequencies](https://en.wikipedia.org/wiki/Frequency) between 300 MHz (1 m) and 300 GHz (1 mm),  so terrestrial microwave communication links are limited by the visual horizon to about 40 miles (64 km). [![Capture.png](https://i.postimg.cc/D0vqpxJm/Capture.png)](https://postimg.cc/Fd6d7gxQ)
+    **Microwaves** are a form of electromagnetic radiation with wavelengths ranging from about one meter to one millimeter; with frequencies between 300 MHz (1 m) and 300 GHz (1 mm),  so terrestrial microwave communication links are limited by the visual horizon to about 40 miles (64 km). [![Capture.png](https://i.postimg.cc/D0vqpxJm/Capture.png)](https://postimg.cc/Fd6d7gxQ)
 
-    Microwaves are used in spacecraft communication, and much of the world's data, TV, and telephone communications are transmitted long distances by microwaves between ground stations and [communications satellites](https://en.wikipedia.org/wiki/Communications_satellite). Microwaves are also employed in [microwave ovens](https://en.wikipedia.org/wiki/Microwave_oven) and in [radar](https://en.wikipedia.org/wiki/Radar) technology.
+    Microwaves are used in spacecraft communication, and much of the world's data, TV, and telephone communications are transmitted long distances by microwaves between ground stations and communications satellites. Microwaves are also employed in microwave ovens and in radar technology.
 
     [![Capture.png](https://i.postimg.cc/X73C81Sb/Capture.png)](https://postimg.cc/3WSNrBxS)
   
@@ -232,27 +232,13 @@
   
   - #### Communications satellite
   
-    A **communications satellite** is an [artificial satellite](https://en.wikipedia.org/wiki/Artificial_satellite) that relays and amplifies [radio](https://en.wikipedia.org/wiki/Radio) telecommunications signals via a [transponder](https://en.wikipedia.org/wiki/Transponder_(satellite_communications)); it creates a [communication channel](https://en.wikipedia.org/wiki/Communication_channel) between a source [transmitter](https://en.wikipedia.org/wiki/Transmitter) and a [receiver](https://en.wikipedia.org/wiki/Radio_receiver) at different locations on Earth. 
+    A **communications satellite** is an artificial satellite that relays and amplifies radio telecommunications signals via a transponder; it creates a communication channel between a source transmitter and a receiver at different locations on Earth. 
     
-    The first and historically most important application for communication satellites was in intercontinental [long distance telephony](https://en.wikipedia.org/wiki/Long_distance_telephony). 
+    The first and historically most important application for communication satellites was in intercontinental long distance telephony. 
     
-    After the 1990s, satellite communication technology has been used as a means to connect to the [Internet](https://en.wikipedia.org/wiki/Internet) via broadband data connections. This can be very useful for users who are located in remote areas, and cannot access a [broadband](https://en.wikipedia.org/wiki/Broadband) connection, or require high availability of services.
+    After the 1990s, satellite communication technology has been used as a means to connect to the Internet via broadband data connections. This can be very useful for users who are located in remote areas, and cannot access a broadband connection, or require high availability of services.
     
-  - #### Cellular network
   
-    A **cellular network** or **mobile network** is a communication network where the last link is [wireless](https://en.wikipedia.org/wiki/Wireless). The network is distributed over land areas called "**cells**", each served by at least one fixed-location [transceiver](https://en.wikipedia.org/wiki/Transceiver), but more normally, three [cell sites](https://en.wikipedia.org/wiki/Cell_site) or [base transceiver stations](https://en.wikipedia.org/wiki/Base_transceiver_station).
-    
-    A simple view of the cellular mobile-radio network consists of the following:
-    
-    - A network of radio [base stations](https://en.wikipedia.org/wiki/Base_station) forming the [base station subsystem](https://en.wikipedia.org/wiki/Base_station_subsystem).
-    - The [core circuit switched network](https://en.wikipedia.org/wiki/Network_switching_subsystem) for handling voice calls and text
-    - A [packet switched network](https://en.wikipedia.org/wiki/GPRS) for handling mobile data
-    - The [public switched telephone network](https://en.wikipedia.org/wiki/Public_switched_telephone_network) to connect subscribers to the wider telephony network
-    
-  - #### Free-space optical communication
-  
-    Free-space point-to-point optical links can be implemented using infrared laser light, although low-data-rate communication over short distances is possible using [LEDs](https://en.wikipedia.org/wiki/Light-emitting_diode). [Infrared Data Association](https://en.wikipedia.org/wiki/Infrared_Data_Association) (IrDA) technology is a very simple form of free-space optical communications. On the communications side the FSO technology is considered as a part of the [optical wireless communications](https://en.wikipedia.org/wiki/Optical_wireless_communications) applications. Free-space optics can be used for communications between [spacecraft](https://en.wikipedia.org/wiki/Spacecraft).
-
 - ### Network interface controller
 
   - #### Definition
@@ -269,65 +255,65 @@
   
     Network controllers were originally implemented as expansion cards that plugged into a computer bus. The low cost and ubiquity of the Ethernet standard means that most new computers have a network interface controller built into the motherboard. 
   
-     A separate network card is typically no longer required unless additional independent network connections are needed or some non-Ethernet type of network is used. A general trend in computer hardware is towards [integrating the various components of systems on a chip](https://en.wikipedia.org/wiki/System_on_a_chip), and this is also applied to network interface cards.
+     A separate network card is typically no longer required unless additional independent network connections are needed or some non-Ethernet type of network is used. A general trend in computer hardware is towards integrating the various components of systems on a chip, and this is also applied to network interface cards.
   
   - #### Performance and advanced functionality
   
-    The NIC may distribute incoming traffic between the receive queues using a [hash function](https://en.wikipedia.org/wiki/Hash_function). Each receive queue is assigned to a separate [interrupt](https://en.wikipedia.org/wiki/Interrupt); by routing each of those interrupts to different [CPUs](https://en.wikipedia.org/wiki/CPU) or [CPU cores](https://en.wikipedia.org/wiki/Multi-core_processor), processing of the interrupt requests triggered by the network traffic received by a single NIC can be distributed improving performance
+    The NIC may distribute incoming traffic between the receive queues using a [hash function. Each receive queue is assigned to a separate interrupt; by routing each of those interrupts to different CPUs or CPU cores, processing of the interrupt requests triggered by the network traffic received by a single NIC can be distributed improving performance
   
     With multi-queue NICs, additional performance improvements can be achieved by distributing outgoing traffic among different transmit queues. By assigning different transmit queues to different CPUs or CPU cores, internal operating system contentions can be avoided. 
   
-    An Ethernet network controller typically has an [8P8C](https://en.wikipedia.org/wiki/8P8C) socket where the network cable is connected. Older NICs also supplied [BNC](https://en.wikipedia.org/wiki/BNC_connector), or [AUI](https://en.wikipedia.org/wiki/Attachment_Unit_Interface) connections. Ethernet network controllers typically support 10 [Mbit/s](https://en.wikipedia.org/wiki/Megabit_per_second) Ethernet, [100 Mbit/s Ethernet](https://en.wikipedia.org/wiki/Fast_Ethernet), and [1000 Mbit/s Ethernet](https://en.wikipedia.org/wiki/Gigabit_Ethernet) varieties. Such controllers are designated as *10/100/1000*, meaning that they can support data rates of 10, 100 or 1000 Mbit/s. [10 Gigabit Ethernet](https://en.wikipedia.org/wiki/10_Gigabit_Ethernet) NICs are also available, and, as of November 2014, are beginning to be available on computer motherboards.
+    An Ethernet network controller typically has an 8P8C socket where the network cable is connected. Older NICs also supplied BNC, or AUI connections. Ethernet network controllers typically support 10 Mbit/s Ethernet, 100 Mbit/s Ethernet, and 1000 Mbit/s Ethernet varieties. Such controllers are designated as *10/100/1000*, meaning that they can support data rates of 10, 100 or 1000 Mbit/s. 10 Gigabit Ethernet NICs are also available, and, as of November 2014, are beginning to be available on computer motherboards.
   
     Comment: Nowadays, the performance of  Network interface controller is far beyond the speed limit of the outer Internet.
   
 - ### Ethernet hub
 
-  An **Ethernet hub**, **active hub**, **network hub**, **repeater hub**, **multiport repeater**, or simply **hub** is a [network hardware](https://en.wikipedia.org/wiki/Network_hardware) device for connecting multiple [Ethernet](https://en.wikipedia.org/wiki/Ethernet) devices together and making them act as a single [network segment](https://en.wikipedia.org/wiki/Network_segment).
+  An **Ethernet hub**, **active hub**, **network hub**, **repeater hub**, **multiport repeater**, or simply **hub** is a network hardware device for connecting multiple Ethernet devices together and making them act as a single network segment.
 
   [![HP-Ether-Twist-Hub8.jpg](https://i.postimg.cc/8zGXLydY/HP-Ether-Twist-Hub8.jpg)](https://postimg.cc/D8CcTPMQ)
 
-  Hubs are now largely obsolete, having been replaced by [network switches](https://en.wikipedia.org/wiki/Network_switch) except in very old installations or [specialized applications](https://en.wikipedia.org/wiki/Ethernet_hub#Uses). 
+  Hubs are now largely obsolete, having been replaced by network switches except in very old installations or specialized applications. 
 
-  A hub works at the [physical layer](https://en.wikipedia.org/wiki/Physical_layer) (layer 1) of the [OSI model](https://en.wikipedia.org/wiki/OSI_model).
+  A hub works at the physical layer (layer 1) of the OSI model.
 
-  As a *multiport repeater* it works by repeating bits ([symbols](https://en.wikipedia.org/wiki/Symbol_rate)) received from one of its ports to all other ports. A hub cannot further examine or manage any of the traffic that comes through it: any packet entering any port is rebroadcast on all other ports.
+  As a *multiport repeater* it works by repeating bits (symbols) received from one of its ports to all other ports. A hub cannot further examine or manage any of the traffic that comes through it: any packet entering any port is rebroadcast on all other ports.
   
   Comment: The reason why hub is replaced with switches is that it does not have any control or management over the connection, which is not sophisticated.
   
 - ### Network switch
 
-  A **network switch** (also called **switching hub**, **bridging hub**, officially **MAC bridge**)[[1\]](https://en.wikipedia.org/wiki/Network_switch#cite_note-1) is [networking hardware](https://en.wikipedia.org/wiki/Networking_hardware) that connects devices on a [computer network](https://en.wikipedia.org/wiki/Computer_network) by using [packet switching](https://en.wikipedia.org/wiki/Packet_switching) to receive, and forward data to the destination device.
+  A **network switch** (also called **switching hub**, **bridging hub**, officially **MAC bridge**) is networking hardware that connects devices on a computer network by using packet switching to receive, and forward data to the destination device.
 
   [![Internals-of-a-Cisco-small-business-SG300-28-28-port-Gigabit-Eth.jpg](https://i.postimg.cc/02zPLyLv/Internals-of-a-Cisco-small-business-SG300-28-28-port-Gigabit-Eth.jpg)](https://postimg.cc/hfRkmcDZ)
 
-  A switch is more intelligent than an [Ethernet hub](https://en.wikipedia.org/wiki/Ethernet_hub), which simply retransmits packets out of every port of the hub except the port on which the packet was received, unable to distinguish different recipients, and achieving an overall lower network efficiency.
+  A switch is more intelligent than an Ethernet hub, which simply retransmits packets out of every port of the hub except the port on which the packet was received, unable to distinguish different recipients, and achieving an overall lower network efficiency.
 
-  An Ethernet switch operates at the [data link layer](https://en.wikipedia.org/wiki/Data_link_layer) (layer 2) of the OSI model to create a separate [collision domain](https://en.wikipedia.org/wiki/Collision_domain) for each switch port. Each device connected to a switch port can transfer data to any of the other ports at any time and the transmissions will not interfere.
+  An Ethernet switch operates at the data link layer (layer 2) of the OSI model to create a separate collision domain for each switch port. Each device connected to a switch port can transfer data to any of the other ports at any time and the transmissions will not interfere.
 
-  A layer 2 switch operating as a network bridge may interconnect devices in a home or office. The bridge learns the [MAC address](https://en.wikipedia.org/wiki/MAC_address) of each connected device. Bridges also buffer an incoming packet and adapt the transmission speed to that of the outgoing port.
+  A layer 2 switch operating as a network bridge may interconnect devices in a home or office. The bridge learns the MAC address of each connected device. Bridges also buffer an incoming packet and adapt the transmission speed to that of the outgoing port.
   
-  A layer-3 switch can perform some or all of the functions normally performed by a [router](https://en.wikipedia.org/wiki/Router_(computing)). Most network switches, however, are limited to supporting a single type of physical network, typically Ethernet, whereas a router may support different kinds of physical networks on different ports.
+  A layer-3 switch can perform some or all of the functions normally performed by a router. Most network switches, however, are limited to supporting a single type of physical network, typically Ethernet, whereas a router may support different kinds of physical networks on different ports.
   
-  A *layer-4 switch* is vendor-dependent, it almost always starts with a capability for [network address translation](https://en.wikipedia.org/wiki/Network_address_translation), and may add some type of [load distribution](https://en.wikipedia.org/wiki/Load_balancing_(computing)) based on [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) sessions or advanced QoS capabilities.
+  A *layer-4 switch* is vendor-dependent, it almost always starts with a capability for network address translation, and may add some type of load distribution based on TCP sessions or advanced QoS capabilities.
   
-  A Layer-7 switch may distribute the load based on [uniform resource locators](https://en.wikipedia.org/wiki/Uniform_resource_locator) (URLs), or by using some installation-specific technique to recognize application-level transactions. A layer-7 switch may include a [web cache](https://en.wikipedia.org/wiki/Web_cache) and participate in a [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) (CDN).
+  A Layer-7 switch may distribute the load based on uniform resource locators (URLs), or by using some installation-specific technique to recognize application-level transactions. A layer-7 switch may include a web cache and participate in a content delivery network (CDN).
   
 - ### Router
 
-  A **router** is a [networking device](https://en.wikipedia.org/wiki/Networking_device) that forwards [data packets](https://en.wikipedia.org/wiki/Data_packet) between [computer networks](https://en.wikipedia.org/wiki/Computer_network). Routers perform the traffic directing functions on the [Internet](https://en.wikipedia.org/wiki/Internet). 
+  A **router** is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. 
 
-  A router is connected to two or more data lines from different [IP networks](https://en.wikipedia.org/wiki/IP_network).[[b\]](https://en.wikipedia.org/wiki/Router_(computing)#cite_note-4) When a data packet comes in on one of the lines, the router reads the [network address](https://en.wikipedia.org/wiki/Network_address) information in the packet header to determine the ultimate destination. Then, using information in its [routing table](https://en.wikipedia.org/wiki/Routing_table) or [routing policy](https://en.wikipedia.org/wiki/Routing_policy), it directs the packet to the next network on its journey.
+  A router is connected to two or more data lines from different IP networks. When a data packet comes in on one of the lines, the router reads the network address information in the packet header to determine the ultimate destination. Then, using information in its routing table or routing policy, it directs the packet to the next network on its journey.
 
   [![1280px-Adsl-connections.jpg](https://i.postimg.cc/jjx76fFK/1280px-Adsl-connections.jpg)](https://postimg.cc/PC7JTCHF)
 
-  The most familiar type of IP routers are [home and small office routers](https://en.wikipedia.org/wiki/Home_router) that simply forward [IP packets](https://en.wikipedia.org/wiki/IP_packet_(disambiguation)) between the home computers and the Internet. 
+  The most familiar type of IP routers are home and small office routers that simply forward IP packets between the home computers and the Internet. 
 
-   A router is considered a [layer-3](https://en.wikipedia.org/wiki/Layer-3) device because its primary forwarding decision is based on the information in the layer-3 IP packet, specifically the destination IP address.
+   A router is considered a layer-3 device because its primary forwarding decision is based on the information in the layer-3 IP packet, specifically the destination IP address.
   
 - ### Modem
 
-  A **modem** ([portmanteau](https://en.wikipedia.org/wiki/Portmanteau) of modulator-demodulator) is a [hardware](https://en.wikipedia.org/wiki/Computer_hardware) device that converts data into a format suitable for a [transmission medium](https://en.wikipedia.org/wiki/Transmission_medium) so that it can be transmitted from computer to computer (historically over telephone wires).
+  A **modem** (portmanteau of modulator-demodulator) is a hardware device that converts data into a format suitable for a transmission medium so that it can be transmitted from computer to computer (historically over telephone wires).
 
   [![Tele-Guide-terminal.jpg](https://i.postimg.cc/WzVzjFJt/Tele-Guide-terminal.jpg)](https://postimg.cc/qhm4x7wd)
 
@@ -335,15 +321,15 @@
 
 - ### Firewall
 
-  In [computing](https://en.wikipedia.org/wiki/Computing), a **firewall** is a [network security](https://en.wikipedia.org/wiki/Network_security) system that [monitors](https://en.wikipedia.org/wiki/Network_monitoring) and controls incoming and outgoing [network traffic](https://en.wikipedia.org/wiki/Network_traffic) based on predetermined security rules.
+  In computing, a **firewall** is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
 
-  Firewalls are generally categorized as network-based or host-based. Network-based firewalls are positioned on the gateway computers of [LANs](https://en.wikipedia.org/wiki/Local_area_network), [WANs](https://en.wikipedia.org/wiki/Wide_Area_Network) and [intranets](https://en.wikipedia.org/wiki/Intranet).The host-based firewall may be a [daemon](https://en.wikipedia.org/wiki/Daemon_(computing)) or [service](https://en.wikipedia.org/wiki/Windows_service) as a part of the [operating system](https://en.wikipedia.org/wiki/Operating_system) or an agent application such as [endpoint security](https://en.wikipedia.org/wiki/Endpoint_security) or protection. 
+  Firewalls are generally categorized as network-based or host-based. Network-based firewalls are positioned on the gateway computers of LANs, WANs and intranets .The host-based firewall may be a daemon or service as a part of the operating system or an agent application such as endpoint security or protection. 
 
   [![Firewall.png](https://i.postimg.cc/FR5CrNF7/Firewall.png)](https://postimg.cc/cKhBTqnS)
 
-  Network layer firewalls, also called packet filters, operate at a relatively low level of the [TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite) [protocol stack](https://en.wikipedia.org/wiki/Protocol_stack), not allowing packets to pass through the firewall unless they match the established rule set. 
+  Network layer firewalls, also called packet filters, operate at a relatively low level of the TCP/IP protocol stack, not allowing packets to pass through the firewall unless they match the established rule set. 
 
-  Application-layer firewalls work on the application level of the [TCP/IP stack](https://en.wikipedia.org/wiki/Internet_protocol_suite#Key_architectural_principles) (i.e., all browser traffic, or all [telnet](https://en.wikipedia.org/wiki/Telnet) or FTP traffic), and may intercept all packets traveling to or from an application.
+  Application-layer firewalls work on the application level of the TCP/IP stack (i.e., all browser traffic, or all telnet or FTP traffic), and may intercept all packets traveling to or from an application.
 
   A proxy server (running either on dedicated hardware or as software on a general-purpose machine) may act as a firewall by responding to input packets (connection requests, for example) in the manner of an application, while blocking other packets. 
 
@@ -351,21 +337,19 @@
 
 - ### Routing
 
-  In packet switched networks, routing directs [packet forwarding](https://en.wikipedia.org/wiki/Packet_forwarding) (the transit of logically addressed [network packets](https://en.wikipedia.org/wiki/Network_packet) from their source toward their ultimate destination) through intermediate [nodes](https://en.wikipedia.org/wiki/Node_(networking)).
-
-   Intermediate nodes are typically network hardware devices such as [routers](https://en.wikipedia.org/wiki/Router_(computing)), [bridges](https://en.wikipedia.org/wiki/Bridging_(networking)), [gateways](https://en.wikipedia.org/wiki/Gateway_(telecommunications)), [firewalls](https://en.wikipedia.org/wiki/Firewall_(computing)), or [switches](https://en.wikipedia.org/wiki/Network_switch). 
+  In packet switched networks, routing directs packet forwarding (the transit of logically addressed network packets from their source toward their ultimate destination) through intermediate nodes.
 
   There are usually multiple routes that can be taken, and to choose between them, different elements can be considered to decide which routes get installed into the routing table, such as (sorted by priority):
 
   1. *Prefix-Length*: where longer subnet masks are preferred (independent if it is within a routing protocol or over different routing protocol)
-  2. *Metric*: where a lower metric/cost is preferred (only valid within one and the same routing protocol)
+2. *Metric*: where a lower metric/cost is preferred (only valid within one and the same routing protocol)
   3. *Administrative distance*: where a lower distance is preferred (only valid between different routing protocols)
-
+  
 - ### Network performance
 
   - #### Grade of service
 
-    In [circuit switched](https://en.wikipedia.org/wiki/Circuit_switched) networks, network performance is synonymous with the [grade of service](https://en.wikipedia.org/wiki/Grade_of_service). 
+    In circuit switched networks, network performance is synonymous with the grade of service. 
 
     In a Loss System, the Grade of Service is described as that proportion of calls that are lost due to congestion in the busy hour.
   
