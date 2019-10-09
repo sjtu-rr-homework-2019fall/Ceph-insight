@@ -2,23 +2,23 @@
 
 - ### Definition
 
-  A **computer network** is a [digital](https://en.wikipedia.org/wiki/Digital_signal) [telecommunications network](https://en.wikipedia.org/wiki/Telecommunications_network) which allows [nodes](https://en.wikipedia.org/wiki/Node_(networking)) to share resources. In computer networks, [computing devices](https://en.wikipedia.org/wiki/Computing_device) [exchange data](https://en.wikipedia.org/wiki/Data_transmission) with each other using connections ([data links](https://en.wikipedia.org/wiki/Data_link)) between nodes. These data links are established over [cable media](https://en.wikipedia.org/wiki/Networking_cables) such as wires or optic cables, or [wireless media](https://en.wikipedia.org/wiki/Wireless_network) such as [Wi-Fi](https://en.wikipedia.org/wiki/Wi-Fi).
+  A **computer network** is a digital telecommunications network which allows nodes to share resources. In computer networks, computing devices with each other using connections  between nodes. These data links are established over  such as wires or optic cables, or such as Wi-Fi.
 
 - ### Network packet
 
-  A **network packet** is a formatted unit of [data](https://en.wikipedia.org/wiki/Data) carried by a [packet-switched network](https://en.wikipedia.org/wiki/Packet-switched_network). A packet consists of control information and user data,[[1\]](https://en.wikipedia.org/wiki/Network_packet#cite_note-1) which is also known as the [payload](https://en.wikipedia.org/wiki/Payload_(computing)). Control information provides data for delivering the payload, for example: source and destination [network addresses](https://en.wikipedia.org/wiki/Network_address), [error detection](https://en.wikipedia.org/wiki/Error_detection) codes, and sequencing information. Typically, control information is found in packet [headers](https://en.wikipedia.org/wiki/Header_(computing)) and [trailers](https://en.wikipedia.org/wiki/Trailer_(computing)).
+  A **network packet** is a formatted unit of data carried by a packet-switched network. A packet consists of control information and user data, which is also known as the payload. Control information provides data for delivering the payload, for example: source and destination network addresses, error detection codes, and sequencing information. Typically, control information is found in packet headers and trailers.
 
-  In packet switching, the [bandwidth](https://en.wikipedia.org/wiki/Bandwidth_(computing)) of the communication medium is shared between multiple communication sessions, in contrast to [circuit switching](https://en.wikipedia.org/wiki/Circuit_switching), in which circuits are preallocated for the duration of one session and data is typically transmitted as a continuous [bit stream](https://en.wikipedia.org/wiki/Bit_stream).
+  In packet switching, the bandwidth of the communication medium is shared between multiple communication sessions, in contrast to circuit switching, in which circuits are preallocated for the duration of one session and data is typically transmitted as a continuous bit stream.
 
   There is no denying that packet switching, which we are using today, is far better than the circuit switching because of better fault handling. Suppose we lost or broke a package on the road, we can use error detecting codes to find the broken package, and resend the package. In my humble opinion, it is much harder for bit stream to achieve this effect.
 
-  In the seven-layer [OSI model](https://en.wikipedia.org/wiki/OSI_model) of [computer networking](https://en.wikipedia.org/wiki/Computer_networking), *packet* strictly refers to a [protocol data unit](https://en.wikipedia.org/wiki/Protocol_data_unit) at layer 3, the [network layer](https://en.wikipedia.org/wiki/Network_layer). The correct term for a data unit at layer 2, the [data link layer](https://en.wikipedia.org/wiki/Data_link_layer), is a *frame*, and at Layer 4, the [transport layer](https://en.wikipedia.org/wiki/Transport_layer), the correct term is *segment* or *datagram*. For TCP/IP communication over [Ethernet](https://en.wikipedia.org/wiki/Ethernet), a [TCP segment](https://en.wikipedia.org/wiki/TCP_segment) is carried in one or more [IP packets](https://en.wikipedia.org/wiki/IP_packet_(disambiguation)), which are each carried in one or more [Ethernet frames](https://en.wikipedia.org/wiki/Ethernet_frame).
+  In the seven-layer OSI model of computer networking, *packet* strictly refers to a protocol data unit at layer 3, the network layer. The correct term for a data unit at layer 2, the data link layer, is a *frame*, and at Layer 4, the transport layer, the correct term is *segment* or *datagram*. For TCP/IP communication over Ethernet, a TCP segment is carried in one or more IP packets , which are each carried in one or more Ethernet frames.
 
 - ### OSI model
 
   - #### Definition
 
-    The **Open Systems Interconnection model** (**OSI model**) is a [conceptual model](https://en.wikipedia.org/wiki/Conceptual_model) that characterizes and standardizes the communication functions of a [telecommunication](https://en.wikipedia.org/wiki/Telecommunication) or computing system without regard to its underlying internal structure and technology. Its goal is the interoperability of diverse communication systems with standard [communication protocols](https://en.wikipedia.org/wiki/Communication_protocols). The model partitions a communication system into [abstraction layers](https://en.wikipedia.org/wiki/Abstraction_layer). The original version of the model had seven layers.
+    The **Open Systems Interconnection model** (**OSI model**) is a conceptual model that characterizes and standardizes the communication functions of a telecommunication or computing system without regard to its underlying internal structure and technology. Its goal is the interoperability of diverse communication systems with standard communication protocols. The model partitions a communication system into abstraction layers. The original version of the model had seven layers.
 
   - #### Chart
 
@@ -26,11 +26,11 @@
 
   - #### Layer 1: Physical Layer
 
-    This layer may be implemented by a [PHY chip](https://en.wikipedia.org/wiki/PHY_(chip)).
+    This layer may be implemented by a PHY chip.
 
-    The physical layer consists of the [electronic circuit](https://en.wikipedia.org/wiki/Electronic_circuit) transmission technologies of a network.[[2\]](https://en.wikipedia.org/wiki/Physical_layer#cite_note-Fundamentals_of_Sensor_Network_Programming-2) It is a fundamental layer underlying the higher level functions in a network, and can be implemented through a great number of different hardware technologies with widely varying characteristics.[[3\]](https://en.wikipedia.org/wiki/Physical_layer#cite_note-3)
+    The physical layer consists of the electronic circuit transmission technologies of a network. It is a fundamental layer underlying the higher level functions in a network, and can be implemented through a great number of different hardware technologies with widely varying characteristics.
 
-    The physical layer defines the means of transmitting raw [bits](https://en.wikipedia.org/wiki/Bit)[[4\]](https://en.wikipedia.org/wiki/Physical_layer#cite_note-4) rather than logical [data packets](https://en.wikipedia.org/wiki/Network_packet) over a physical [data link](https://en.wikipedia.org/wiki/Data_link) connecting network [nodes](https://en.wikipedia.org/wiki/Node_(networking)). The [bitstream](https://en.wikipedia.org/wiki/Bitstream) may be grouped into code words or symbols and converted to a physical [signal](https://en.wikipedia.org/wiki/Signal) that is transmitted over a [transmission medium](https://en.wikipedia.org/wiki/Transmission_medium). The physical layer provides an electrical, mechanical, and procedural interface to the transmission medium. The shapes and properties of the [electrical connectors](https://en.wikipedia.org/wiki/Electrical_connector), the frequencies to broadcast on, the [line code](https://en.wikipedia.org/wiki/Line_code) to use and similar low-level parameters, are specified here.
+    The physical layer defines the means of transmitting raw bits rather than logical data packets over a physical data link connecting network nodes. The bitstream may be grouped into code words or symbols and converted to a physical signal that is transmitted over a transmission medium. The physical layer provides an electrical, mechanical, and procedural interface to the transmission medium. The shapes and properties of the electrical connectors, the frequencies to broadcast on, the line code to use and similar low-level parameters, are specified here.
 
   - #### Layer 2: Data Link Layer
 
