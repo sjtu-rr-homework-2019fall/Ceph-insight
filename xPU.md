@@ -12,7 +12,7 @@ The GPU can use multiple CUDA cores for parallel computing, while the CPU can on
 
 In short, the CPU is good at complex operations, and the GPU is good at simply repeating operations to big data.
 
-![CPU and GPU.jpg](img/CPU and GPU.jpg)
+![CPU and GPU.jpg](img/CPU_and_GPU.jpg)
 
 ## Indicators
 
@@ -31,7 +31,7 @@ The number of bits of data that can be transmitted in one clock cycle. The large
 
 It refers to the data transfer rate between the display chip and the video memory, in bytes per second. Memory bandwidth is one of the most important factors in determining graphics card performance and speed.
 
-![GPU Memory Bandwidth.jpg](img/GPU Memory Bandwidth.jpg)
+![GPU Memory Bandwidth.jpg](img/GPU_Memory_Bandwidth.jpg)
 
 ### Calculation Abilities
 
@@ -44,7 +44,7 @@ For scientific calculations that require a large range of numbers and require pr
 For common multimedia and graphics processing calculations, deep learning, artificial intelligence, etc., 32-bit single-precision floating-point calculations are sufficient.
 For applications such as machine learning that require less precision, half-precision 16-bit floating-point numbers can be used.
 
-![Double-precision Floating Point Performance.jpg](img/Double-precision Floating Point Performance.jpg)
+![Double-precision Floating Point Performance.jpg](img/Double-Precision_Floating_Point_Performance.jpg)
 
 ## Nvidia Products
 
@@ -52,7 +52,7 @@ For applications such as machine learning that require less precision, half-prec
 
 The GeForce series are for 3D gaming applications. Several high-end models are GTX1080TI, Titan XP and GTX1080, using the latest Pascal architecture or Maxwell architecture. The latest model is RTX 2080TI using Turing architecture. Because it is aimed at gamers, there is no demand for double-precision computing power, and the shipment volume is large. The price is much cheaper than the Tesla series products with the same architecture, and is also often used for deep learning, artificial intelligence, computer vision and the like.
 
-![GeForce RTX 2080 Ti.jpg](img/GeForce RTX 2080 Ti.jpg)
+![GeForce RTX 2080 Ti.jpg](img/GeForce_RTX_2080_Ti.jpg)
 
 ### Quadro Series
 
@@ -64,4 +64,4 @@ Tesla series are dedicated GPU accelerated computation cards, including V100, P1
 
 The Tesla family of high-end GPU accelerators can handle workloads that require ultra-rigorous HPC and ultra-large data centers faster.
 
-![Tesla V100.jpg](img/Tesla V100.jpg)
+![Tesla V100.jpg](img/Tesla_V100.jpg)
