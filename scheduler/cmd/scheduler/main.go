@@ -6,6 +6,7 @@ import (
 	"math/rand"
 	"time"
 
+	"errors"
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
@@ -110,7 +111,7 @@ func (s *Scheduler) SchedulePods() error {
 
 		fmt.Println("found a pod to schedule:", p.Namespace, "/", p.Name)
 
-		node, err := s.findFit()
+		node, err := s.findFit(p)
 		if err != nil {
 			log.Println("cannot find node that fits pod", err.Error())
 			continue
@@ -135,7 +136,7 @@ func (s *Scheduler) SchedulePods() error {
 	return nil
 }
 
-func (s *Scheduler) findFit() (*v1.Node, error) {
+func (s *Scheduler) findFit(pod *v1.Pod) (string, error) {
 	nodes, err := s.nodeLister.List(labels.Everything())
 	if err != nil {
 		return "", err
