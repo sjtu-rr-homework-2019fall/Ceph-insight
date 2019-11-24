@@ -142,8 +142,7 @@ func (s *Scheduler) findFit() (*v1.Node, error) {
 	}
 
 	filteredNodes := s.runPredicates(nodes, pod)//find node that fits the prerequesit
-	if len(filteredNodes) == 0 
-	{
+	if len(filteredNodes) == 0 {
 		return "", errors.New("failed to find node that fits pod")
 	}
 	priorities := s.prioritize(filteredNodes, pod)
@@ -194,10 +193,8 @@ func (s *Scheduler) emitEvent(p *v1.Pod, message string) error {
 
 func (s *Scheduler) runPredicates(nodes []*v1.Node, pod *v1.Pod) []*v1.Node {
 	filteredNodes := make([]*v1.Node, 0)
-	for _, node := range nodes 
-	{
-		if s.predicatesApply(node, pod) 
-		{
+	for _, node := range nodes {
+		if s.predicatesApply(node, pod) {
 			filteredNodes = append(filteredNodes, node)
 		}
 	}
