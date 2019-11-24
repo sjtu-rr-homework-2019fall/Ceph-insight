@@ -16,5 +16,5 @@ spec:
     spec:
       containers:
         - name: my-scheduler
-          image: macoredroid/scheduler:latest
+          image: macoredroid/scheduler:v0.1
           imagePullPolicy: Always
