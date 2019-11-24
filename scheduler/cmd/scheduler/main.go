@@ -123,7 +123,7 @@ func (s *Scheduler) SchedulePods() error {
 			continue
 		}
 
-		message := fmt.Sprintf("Placed pod [%s/%s] on %s\n", p.Namespace, p.Name, node.Name)
+		message := fmt.Sprintf("Placed pod [%s/%s] on %s\n", p.Namespace, p.Name, node)
 
 		err = s.emitEvent(p, message)
 		if err != nil {
@@ -150,7 +150,7 @@ func (s *Scheduler) findFit(pod *v1.Pod) (string, error) {
 	return s.findBestNode(priorities), nil
 }
 
-func (s *Scheduler) bindPod(p *v1.Pod, randomNode *v1.Node) error {
+func (s *Scheduler) bindPod(p *v1.Pod, node string) error {
 	return s.clientset.CoreV1().Pods(p.Namespace).Bind(&v1.Binding{
 		ObjectMeta: metav1.ObjectMeta{
 			Name:      p.Name,
@@ -159,7 +159,7 @@ func (s *Scheduler) bindPod(p *v1.Pod, randomNode *v1.Node) error {
 		Target: v1.ObjectReference{
 			APIVersion: "v1",
 			Kind:       "Node",
-			Name:       randomNode.Name,
+			Name:       node,
 		},
 	})
 }
