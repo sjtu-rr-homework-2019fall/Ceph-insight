@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-scheduler
+  labels:
+    app: my-scheduler
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-scheduler
+  template:
+    metadata:
+      labels:
+        app: my-scheduler
+    spec:
+      containers:
+        - name: my-scheduler
+          image: macoredroid/scheduler:v0.1
+          imagePullPolicy: Always
